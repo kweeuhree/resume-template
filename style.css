@@ -1,0 +1,184 @@
+/* Body */
+
+body {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    margin-top: 1em;
+    margin-left: 10em;
+    margin-right: 10em;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #0b113dce;
+    border: 3px solid rgba(172, 160, 219, 0.708);
+    box-shadow:
+     inset 5vw 5vw 10vw rgba(199, 236, 247, 0.468), 
+     inset 90vw 5vw 10vw #0b113d32,
+     inset 60vw 5vw 10vw #b9d8e4a1;
+     /* inset 90vw 5vw 10vw rgba(147, 180, 241, 0.349), */
+     /* inset  rgba(104, 162, 212, 0.349); */
+     
+}
+
+/* Header Section */
+
+header {
+    max-height: 30vh;
+    display: flex;
+    margin: auto;
+    margin: 3em;
+    background-size: 100% 100%;
+    background: conic-gradient(from 50deg, #d3e7e5e7, #0b113dce);
+    animation: conic 25s linear infinite;
+    width: 100%;
+}
+
+@keyframes conic {
+    0% {background-size: 90% 50%;}
+    25% {background-size: 80% 40%;}
+    35% {background-size: 70% 30%;}
+    55%  {background-size: 60% 20%;}
+    63%  {background-size: 70% 30%;}
+    80% {background-size: 80% 40%;}
+    100% {background-size: 90% 50%;}
+}
+
+.name, .surname {
+    font-size: 3vw;
+    color: #030514dd;
+    /* border: solid pink; */
+}
+
+.surname {
+    /* border: solid salmon; */
+    color: #0b113dce;
+}
+
+/* Main Image */
+
+.main-image img{
+    border-radius: 15vw;
+    height: 50vh;
+    margin-left: 4em;
+    border: solid #030514ac;
+    box-shadow: 1px 1px 10px #030514ac;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+main h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-section {
+    width: 50%;
+}
+
+/* Main Left Section*/
+
+.profile {
+    text-indent: 2vw;
+    font-size: 1.7vw;
+    font-weight: 600;
+    padding-top: 2vw;
+    margin-top: 8vw;
+}
+
+.contact {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.contact-segment {
+    display: flex;
+    justify-content: left;
+    gap: 1vw;
+}
+
+.contact-segment, .skill-segment {
+    margin: 1vw;
+}
+
+.icon {
+    font-size: 1.4vw;
+
+}
+
+.skills .string {
+    font-weight: 500;
+}
+
+/* Main Right Section*/
+
+.education-segment, .experience-segment {
+    display: flex;
+    margin-top: 1vw;    
+}
+
+.education-details, .experience-details {
+    margin-left: 1vw;
+}
+
+.timeline {
+    display: flex;
+}
+
+.years {
+    margin-right: 1vw;
+    text-wrap: nowrap;
+}
+
+.experience-years {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    margin-top: 1vw;
+    justify-content: space-between;
+}
+
+hr {
+    /* transform: rotate(90deg); */
+    /* margin: 1vw; */
+    height: 90%;
+
+}
+
+/* Languages */
+
+.languages-all {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.language, .circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0.3vw;
+}
+
+
+.circle {
+    height: 2.5vw;
+    width: 2.5vw;
+    border-radius: 50%;
+    border: 8px solid rgb(62, 23, 116);
+    background-color: white;
+    color: black;
+}
+
+.language-string {
+    /* border: solid purple; */
+}
